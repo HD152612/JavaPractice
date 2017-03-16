@@ -32,7 +32,7 @@ public class Loop {
 		Scanner scanner = new Scanner(System.in);
 		while(b)
 		{
-			int n = new Random().nextInt(3) + 1;
+			int n = new Random().nextInt(4);
 			System.out.println("-------------------");
 			System.out.println("<< 게임 메뉴 >>"); 
 			System.out.println("1. 공격력 증가");

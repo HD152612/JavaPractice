@@ -21,7 +21,7 @@ public class CarTest {
 	    * @param args
 	    */
 	  public static void main(String[] args) {
-	      car car = new car();
+	      Car car = new Car();
 	      System.out.println("<< 자동차 목록 >>");
 	      System.out.println("제조사명 : " + car.getCompany());
 	      System.out.println("모델명 : " + car.getModel());
@@ -31,7 +31,7 @@ public class CarTest {
 	      // printf인데 왜 +"원"이 된거지?
 	      System.out.println("\n");
 	      
-	      car car2 = new car();
+	      Car car2 = new Car();
 	      car2.setCompany("기아자동차");
 	      car2.setModel("k7");
 	      car2.setColor("흰색");
@@ -45,7 +45,7 @@ public class CarTest {
 	      System.out.printf("가격 : %s원",String.format("%,d",car2.getPrice()));
 	      System.out.println("\n");
 	      
-	      car car3 = new car();
+	      Car car3 = new Car();
 	      car3.setCompany("삼성자동차");
 	      car3.setModel("SM7");
 	      car3.setColor("회색");
@@ -58,5 +58,4 @@ public class CarTest {
 	      System.out.println("최대속도 : "+ car3.getMaxSpeed()+"km");
 	      System.out.printf("가격 : %s원",String.format("%,d",car3.getPrice()));
 	   }
-
 	}

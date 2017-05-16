@@ -22,6 +22,11 @@ public class PiggyBankTest {
 		FamilyMember me = new FamilyMember("나");
 		FamilyMember bro = new FamilyMember("남동생");
 		
+/*		FamilyMember[] fm = {
+				new FamilyMember("아빠")
+				
+		};
+*/		
 		FamilyMember.printMemberCnt();
 		
 		PiggyBank.putMoney(dad,10000);

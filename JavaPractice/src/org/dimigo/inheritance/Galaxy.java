@@ -29,3 +29,4 @@ public Galaxy(){
 		System.out.println("무선충전 기능을 이용합니다.");
 	}
 }
+ 
